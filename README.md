@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A("Student creates Trip_Request (dest, date, luggage, connection)") --> B{"Has connecting flight?"}
     
@@ -43,3 +44,4 @@ graph TD
     class N,R,T trigger;
     class C,D,H,Q,S proc;
     class A,U state;
+```
